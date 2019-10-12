@@ -1,0 +1,74 @@
+body {
+
+    background-image: url("assets/back.jpg");
+
+}
+#myName {
+    /* margin-left: 190px; */
+    background-color: teal;
+    padding: 15px;
+    font-size: 25px;
+     
+}
+
+.container {
+    padding: 20px;
+    margin-top: 20px;    
+    max-width: 960px;
+    background-color: white;
+    margin-bottom: 100px;
+    /* margin-bottom: 160px; */
+}
+
+h1  {
+    color: teal;
+}
+#itemsLeft {
+    /* margin-right: 190px; */
+
+}
+
+
+.contactBox {
+    background-color: white;
+}
+
+.button {
+    background-color: teal;
+    color: white;
+}
+.pics {
+
+     padding-bottom: 20px; 
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 767px or less.
+*/
+@media screen and (max-width: 767px) {
+
+img {
+   width: 100%;;
+   
+}
+
+
+}
+
+@media screen and (max-width: 575px) {
+
+    #myPic {
+        width: 100%;
+    }
+    p{ 
+        box-sizing: border-box;
+        text-align: justify;
+        width: 100%;
+        box-sizing: border-box; 
+
+    }
+
+
+}
+

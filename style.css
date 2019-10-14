@@ -1,34 +1,46 @@
 body {
 
-    background-image: url("assets/back.jpg");
+    background-image: url("assets/back.jpg");  
+}
 
+#navBar {
+    background-color: white;
 }
 #myName {
-    /* margin-left: 190px; */
     background-color: teal;
     padding: 15px;
-    font-size: 25px;
+    font-size: 30px;  
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
      
 }
 
 .container {
     padding: 20px;
     margin-top: 20px;    
-    max-width: 960px;
     background-color: white;
     margin-bottom: 100px;
-    /* margin-bottom: 160px; */
 }
 
 h1  {
     color: teal;
-}
-#itemsLeft {
-    /* margin-right: 190px; */
-
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+h2 {
+    background-color: teal;
+    font-size: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
+}
+p, a {
+    font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
+.note {
+    padding: 2px;
+    
+   
+}
 .contactBox {
     background-color: white;
 }
@@ -37,38 +49,71 @@ h1  {
     background-color: teal;
     color: white;
 }
-.pics {
 
-     padding-bottom: 20px; 
+.img ,.pics{
+
+padding-bottom: 10px ; 
+
 }
-
+@media screen and (max-width: 1299px) and (min-width: 1040px) {
+    .container {
+        width: 1040px;
+    }
+    
+}
 /*
   These rules take effect when the browser's width
   is either 767px or less.
 */
-@media screen and (max-width: 767px) {
-
-img {
-   width: 100%;;
-   
-}
-
-
-}
-
-@media screen and (max-width: 575px) {
-
-    #myPic {
-        width: 100%;
-    }
-    p{ 
-        box-sizing: border-box;
+@media screen and (max-width: 767px) {       
+    p {
         text-align: justify;
-        width: 100%;
-        box-sizing: border-box; 
-
+    } 
+    img {
+        padding: 10px;  
     }
 
-
+    #myName{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .navTop {
+        padding: unset;      
+    }
+    .navList {
+        padding: 0;
+        justify-items: center;
+    }
+    
 }
+
+/*
+  These rules take effect when the browser's width
+  is either 400px or less.
+*/
+@media screen and (max-width: 400px) {
+    p {
+        text-align: justify;
+    }
+    #myName{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+   
+    .navTop {
+        padding: unset; 
+    }
+    .navList {
+        padding: 0;
+        justify-items: center;
+    }
+   
+    }
+    
+    
+
+
+
 

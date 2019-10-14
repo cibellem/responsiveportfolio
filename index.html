@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <!-- Container Div -->
 
-    <nav class="navbar bg-white py-0">
+    <!-- Nav bar starts here -->
+    <nav class="navbar bg-white py-0 border-bottom  navTop ">
 
 
 
@@ -22,19 +22,21 @@
 
 
 
-        <ul id="itemsLeft" class=" nav justify-content-end ml-auto ">
-            <li class="nav-item">
-                <a class="nav-link  text-secondary" href="index.html">About</a>
+        <ul class="  navList nav navbar">
+            <li class=" nav-item">
+                <a class="nav-link  text-secondary border-right  " href="index.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+                <a class="nav-link text-secondary border-right " href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-secondary " href="contact.html">Contact</a>
+                <a class="nav-link text-secondary" href="contact.html">Contact</a>
             </li>
         </ul>
     </nav>
     <!-- end of the nav bar -->
+
+    <!-- Container Div -->
 
     <div class="container bg-white">
 
@@ -42,7 +44,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="page-header">
-                    <h1>About Me</h1>
+                    <h1 class="border-bottom 2px ">About Me</h1>
                 </div>
             </div>
         </div>
@@ -50,13 +52,14 @@
 
         <div class="row">
 
-            <div class="col-5">
-                <img src="assets/papagopark.JPG" alt="cutedog" class="img-fluid" id="myPic">
+            <div class="col-xl-3 col-md-4  col-sm-12">
+                <img src="assets/myself.jpg" alt="personalpic" class="img-thumbnail img-fluid " id="myPic">
             </div>
 
 
-            <div class="col-7">
-                <p>I am a Full Stack Web Development student who is very passionate about learning new things. I'm a
+            <div class="col-md-8 col-sm-12">
+                <p class="justify-center">I am a Full Stack Web Development student who is very passionate about
+                    learning new things. I'm a
                     self taught English speaker and right now am teaching myself Spanish. I am constantly learning
                     because it helps me to discover hidden strenghts and hobbies. Besides coding, I enjoy playing
                     soccer, climbing, gardening and cooking. </p>
@@ -70,7 +73,7 @@
 
     </div>
 
-    <nav class="navbar justify-content-center fixed-bottom text-white bg-secondary">
+    <nav class=" border-top border-info navbar justify-content-center fixed-bottom text-white bg-secondary">
         <a class="navbar-brand ">Copyright</a>
     </nav>
 </body>

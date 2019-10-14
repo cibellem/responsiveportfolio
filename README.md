@@ -13,11 +13,16 @@ In the portfolio page I added some personal shots and they were all positioned  
     *Columns*,
     *Caroussel*,
     *Nav bar*.
+    
+### Technologies-Libraries
+- [Bootstrap](https://getbootstrap.com/) - CSS Framework
 
-Below are some screenshots on how the website it's going to look: 
+### Link
+Check it out! 
+https://cibellem.github.io/responsiveportfolio/
 
 
-
+Below are some screenshots on how the website it's going to look: <br>
 ![Index 640px](assets/640index.png) <br>
 ![Portfolio 768px](assets/768portfolio.png) <br>
 ![Contact 980px](assets/980contact.png) <br>
